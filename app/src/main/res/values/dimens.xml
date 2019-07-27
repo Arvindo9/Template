@@ -40,10 +40,6 @@
     <dimen name="_400dp">400dp</dimen>
     <dimen name="_24dp">24dp</dimen>
     <dimen name="_72dp">72dp</dimen>
-    <dimen name="card_corner_radius">2dp</dimen>
-    <dimen name="card_elevation">2dp</dimen>
-    <dimen name="touch_raise">6dp</dimen>
-    <dimen name="home_icon_size">40dp</dimen>
     <dimen name="_600dp">600dp</dimen>
     <dimen name="_14sp">14sp</dimen>
     <dimen name="_15dp">15dp</dimen>
