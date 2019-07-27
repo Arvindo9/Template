@@ -274,30 +274,4 @@ public class ResourceUtils implements Resource {
 
         return true;
     }
-
-    @Override
-    public <A extends BaseActivity> boolean validateMinimumAge(A activity, EditText editText) {
-        if (editText.getText().toString().trim().isEmpty()) {
-            editText.setError(activity.getString(R.string.select_min_age));
-            activity.requestFocus(editText);
-            return false;
-        } else {
-            editText.setError(null);
-        }
-
-        return true;
-    }
-
-    @Override
-    public <A extends BaseActivity> boolean validateMaximumAge(A activity, EditText editText) {
-        if (editText.getText().toString().trim().isEmpty()) {
-            editText.setError(activity.getString(R.string.select_max_age));
-            activity.requestFocus(editText);
-            return false;
-        } else {
-            editText.setError(null);
-        }
-
-        return true;
-    }
 }

@@ -3,4 +3,17 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+
+    <!-- Resources-->
+    <color name="snackBarActionColor">@color/colorPrimary</color>
+
+
+    <!-- Colors-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#959799</color>
+
+    <!-- Custom-->
+    <color name="welcomePagerDots">#756E6E</color>
 </resources>

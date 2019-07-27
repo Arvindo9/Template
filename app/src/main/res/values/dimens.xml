@@ -46,4 +46,5 @@
     <dimen name="_5dp">5dp</dimen>
     <dimen name="_150dp">150dp</dimen>
     <dimen name="_180dp">180dp</dimen>
+    <dimen name="touch_raise">10dp</dimen>
 </resources>
