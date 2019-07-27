@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="data"
+            type="com.aiprog.template.core.dialogs.flag.FlagViewModel" />
+
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/searchBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/white"
+            android:elevation="@dimen/_4dp"
+            android:gravity="center_vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/backBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_10dp"
+                android:padding="@dimen/_10dp"
+                app:srcCompat="@drawable/ic_arrow_back"
+                android:layout_marginStart="@dimen/_10dp"
+                android:layout_alignParentStart="true"
+                android:onClick="@{() -> data.onBackButtonClick()}"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/clearBtn"
+                android:layout_toRightOf="@+id/backBtn"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:background="@android:color/transparent"
+                android:hint="@string/search_country"
+                android:padding="@dimen/_8dp"
+                android:layout_toStartOf="@+id/clearBtn"
+                android:layout_toEndOf="@+id/backBtn"
+                android:onClick="@{() -> data.onSearchClick()}" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/clearBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_4dp"
+                android:padding="@dimen/_10dp"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_close"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/_4dp"
+                android:onClick="@{() -> data.onClearButtonClick()}"/>
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:FlagAdapter="@{data.flagObservableList}"
+            tools:itemCount="3"
+            tools:listitem="@layout/flag_adapter">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

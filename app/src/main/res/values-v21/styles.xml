@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<style name="AppTheme.NoActionBar">-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+        <!--&lt;!&ndash;<item name="android:windowDrawsSystemBarBackgrounds">true</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:statusBarColor">@android:color/transparent</item>&ndash;&gt;-->
+    <!--</style>-->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <style name="CardViewStyle1" parent="android:Widget.TextView">
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="android:stateListAnimator">@animator/raise</item>
+    </style>
+
+
+    <style name="FullScreenImage" parent="android:Theme.Material.NoActionBar.Fullscreen">
+    </style>
+</resources>

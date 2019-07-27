@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="data"
+            type="com.aiprog.template.core.dialogs.flag.adapter.FlagAdapterViewModel" />
+
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="@android:color/white"
+        android:padding="10dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/flagIcon"
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            app:ImageViewUrl="@{data.flagUrl}"
+            tools:background="@tools:sample/avatars"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/countryName"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_4dp"
+            android:layout_marginRight="@dimen/_4dp"
+            android:layout_toRightOf="@+id/flagIcon"
+            android:layout_toLeftOf="@+id/countryISOCode"
+            android:text="@{data.country}"
+            android:textColor="@color/gray" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/countryISOCode"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_4dp"
+            android:layout_toLeftOf="@+id/countryCode"
+            android:text="@{data.iSOCode1}"
+            android:textColor="@color/gray" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/countryCode"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@{data.mobilePhonePrefix}"
+            android:textColor="@color/gray" />
+    </RelativeLayout>
+</layout>
