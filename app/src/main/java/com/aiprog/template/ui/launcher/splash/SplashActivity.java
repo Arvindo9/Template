@@ -53,11 +53,6 @@ public class SplashActivity extends BaseActivity<SplashActivityBinding, SplashVi
     }
 
     @Override
-    public void getContext(Context context) {
-
-    }
-
-    @Override
     protected int getLayout() {
         return R.layout.splash_activity;
     }

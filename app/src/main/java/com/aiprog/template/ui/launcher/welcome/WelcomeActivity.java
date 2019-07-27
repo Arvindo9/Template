@@ -72,14 +72,6 @@ public class WelcomeActivity extends BaseActivity<WelcomeActivityBinding, Welcom
     }
 
     /**
-     * @param context is a Activity class context or instance
-     */
-    @Override
-    public void getContext(Context context) {
-        this.context = context;
-    }
-
-    /**
      * @return R.layout.layout_file
      */
     @Override
