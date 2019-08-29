@@ -13,6 +13,7 @@ import com.aiprog.template.base.BaseActivity;
 import com.aiprog.template.databinding.SplashActivityBinding;
 import com.aiprog.template.di.module.ViewModelProviderFactory;
 import com.aiprog.template.ui.launcher.welcome.WelcomeActivity;
+import com.aiprog.template.utils.Logger;
 
 import javax.inject.Inject;
 
@@ -120,5 +121,36 @@ public class SplashActivity extends BaseActivity<SplashActivityBinding, SplashVi
     @Override
     public void handleMessage(int index) {
 
+    }
+
+    private void setUpNotification() {
+        // If a Notification message is tapped, any data accompanying the Notification
+        // message is available in the intent extras. In this sample the launcher
+        // intent is fired when the Notification is tapped, so any accompanying data would
+        // be handled here. If you want a different intent fired, set the click_action
+        // field of the Notification message to the desired intent. The launcher intent
+        // is used when no click_action is specified.
+        //
+        // Handle possible data accompanying Notification message.
+        // [START handle_data_extras]
+        if (getIntent().getExtras() != null) {
+            for (String key : getIntent().getExtras().keySet()) {
+                Object value = getIntent().getExtras().get(key);
+                Logger.e("Key: " + key + " Value: " + value);
+
+                if(key.equals("Key")) {
+                    try {
+                        String idStr = String.valueOf(value);
+                        int id = Integer.parseInt(idStr);
+//                        onOpenJobItem(id);
+                    }
+                    catch (Exception e){
+                        e.printStackTrace();
+                    }
+                }
+
+            }
+        }
+        // [END handle_data_extras]
     }
 }
