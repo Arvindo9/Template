@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "D:\\Computer\\android\\KinG\\template\\Template",
+      "sdkFolder": "C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "D:\\Computer\\android\\KinG\\template\\Template\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "D:\\Computer\\android\\KinG\\template\\Template\\app",
+      "makeFile": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "D:\\Computer\\android\\KinG\\template\\Template\\.cxx",
+      "cxxFolder": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx",
+      "ndkFolder": "C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\ndk-bundle",
+      "ndkVersion": "20.1.5948944",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "debug",
+    "soFolder": "D:\\Computer\\android\\KinG\\template\\Template\\app\\build\\intermediates\\cmake\\debug\\lib",
+    "objFolder": "D:\\Computer\\android\\KinG\\template\\Template\\app\\build\\intermediates\\cmake\\debug\\obj",
+    "jsonFolder": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug",
+    "gradleBuildOutputFolder": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\armeabi-v7a",
+  "jsonFile": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cxx\\debug\\armeabi-v7a",
+  "objFolder": "D:\\Computer\\android\\KinG\\template\\Template\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a",
+  "buildCommandFile": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\build_command.txt",
+  "buildOutputFile": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\build_output.txt",
+  "modelOutputFile": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cxx\\debug\\armeabi-v7a\\CMakeLists.txt",
+    "toolchainWrapperFile": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cxx\\debug\\armeabi-v7a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cxx\\debug\\armeabi-v7a\\build_generation_state.json",
+    "cacheKeyFile": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cxx\\debug\\armeabi-v7a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cxx\\debug\\armeabi-v7a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cxx\\debug\\armeabi-v7a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cxx\\debug\\armeabi-v7a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\json_generation_record.json",
+  "compileCommandsJsonFile": "D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\compile_commands.json"
+}

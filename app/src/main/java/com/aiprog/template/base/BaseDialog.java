@@ -21,6 +21,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import org.jetbrains.annotations.NotNull;
+
 import dagger.android.support.AndroidSupportInjection;
 
 /**
@@ -57,6 +59,7 @@ public abstract class BaseDialog<B extends ViewDataBinding, V extends BaseViewMo
 
     /**
      * Override for get the instance of viewModel
+     * String string = getArguments() != null ? getArguments().getString(KEY) : "";
      *
      * @return viewModel = ViewModelProviders.of(this,factory).get(WelcomeViewModel.class);
      */
@@ -65,7 +68,7 @@ public abstract class BaseDialog<B extends ViewDataBinding, V extends BaseViewMo
     /**
      * Override for set binding variable
      *
-     * @return variable id
+     * @return BR.data;
      */
     public abstract int getBindingVariable();
 
@@ -77,11 +80,12 @@ public abstract class BaseDialog<B extends ViewDataBinding, V extends BaseViewMo
 
     /**
      * Do anything on onCreateView after binding
+     * viewModel.setNavigator(this);
      */
     protected abstract void init();
 
     @Override
-    public void onAttach(Context context) {
+    public void onAttach(@NotNull Context context) {
         super.onAttach(context);
         if (context instanceof BaseActivity) {
             BaseActivity activity = (BaseActivity) context;
@@ -90,7 +94,6 @@ public abstract class BaseDialog<B extends ViewDataBinding, V extends BaseViewMo
         }
         this.context = context;
     }
-
 
     @NonNull
     @Override
@@ -128,8 +131,13 @@ public abstract class BaseDialog<B extends ViewDataBinding, V extends BaseViewMo
                              @Nullable Bundle savedInstanceState) {
         binding = DataBindingUtil.inflate(inflater, getLayout(), container, false);
         performDataBinding();
-        init();
         return binding.getRoot();
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        init();
     }
 
     private void performDependencyInjection(){
@@ -159,9 +167,9 @@ public abstract class BaseDialog<B extends ViewDataBinding, V extends BaseViewMo
         show(transaction, tag);
     }
 
-    public void dismissDialog(String tag) {
+    public void dismissDialog() {
         dismiss();
-        getBaseActivity().onFragmentDetached(tag);
+        getBaseActivity().onFragmentDetached();
     }
 
     public BaseActivity getBaseActivity() {

@@ -20,7 +20,7 @@ import retrofit2.http.Query;
  * Created on   : 23-12-2018
  */
 public interface APIService {
-    @GET("dating/api/Flag/GetCountryFlag")
+    @GET("template/api/Flag/GetCountryFlag")
     Flowable<FlagApi> countryCode();
 
 /*

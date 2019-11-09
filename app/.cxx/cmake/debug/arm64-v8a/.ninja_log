@@ -1,0 +1,9 @@
+# ninja log v5
+1	493	595031279	CMakeFiles/algorithm-lib.dir/algorithm-lib.cpp.o	139275c60076b41e
+494	881	595031280	D:/Computer/android/KinG/template/Template/app/build/intermediates/cmake/debug/obj/arm64-v8a/libalgorithm-lib.so	644927160e35d2f8
+0	5	0	clean	5da279185e234663
+2	402	595031417	CMakeFiles/algorithm-lib.dir/algorithm-lib.cpp.o	139275c60076b41e
+402	512	595031417	D:/Computer/android/KinG/template/Template/app/build/intermediates/cmake/debug/obj/arm64-v8a/libalgorithm-lib.so	644927160e35d2f8
+0	10	0	clean	5da279185e234663
+3	395	595031503	CMakeFiles/algorithm-lib.dir/algorithm-lib.cpp.o	139275c60076b41e
+395	597	595031503	D:/Computer/android/KinG/template/Template/app/build/intermediates/cmake/debug/obj/arm64-v8a/libalgorithm-lib.so	644927160e35d2f8

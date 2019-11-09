@@ -16,4 +16,6 @@
 
     <!-- Custom-->
     <color name="welcomePagerDots">#756E6E</color>
+
+    <color name="fifty_percent_transparency_grey">#80bdbdbd</color>
 </resources>

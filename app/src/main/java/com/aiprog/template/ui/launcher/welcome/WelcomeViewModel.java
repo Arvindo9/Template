@@ -5,19 +5,11 @@ import android.content.Context;
 import com.aiprog.template.base.BaseViewModel;
 import com.aiprog.template.data.DataManager;
 import com.aiprog.template.utils.rx.SchedulerProvider;
-import com.aiprog.template.utils.security.DeviceId;
 import com.aiprog.template.utils.tasks.Task;
 
 import java.lang.ref.WeakReference;
 
 import javax.inject.Inject;
-
-import static com.aiprog.template.utils.AppConstants.APPLICATION_ID_EMPTY_API;
-import static com.aiprog.template.utils.AppConstants.APPLICATION_ID_ERROR_API;
-import static com.aiprog.template.utils.AppConstants.APPLICATION_ID_SAVE_EMPTY_DB;
-import static com.aiprog.template.utils.AppConstants.APPLICATION_ID_SAVE_ERROR_DB;
-import static com.aiprog.template.utils.AppConstants.FLAG_ERROR_API;
-import static com.aiprog.template.utils.AppConstants.FLAG_ERROR_DB;
 
 /**
  * Author       : Arvindo Mondal
@@ -67,16 +59,4 @@ public class WelcomeViewModel extends BaseViewModel<WelcomeNavigator> {
 
     //Additional task--------------------------------
 
-    @Override
-    public void onResponse(int responseCode, Object object) {
-        switch (responseCode){
-            case FLAG_ERROR_DB:
-            case FLAG_ERROR_API: break;
-        }
-    }
-
-    @Override
-    public void onError(Throwable throwable) {
-        getNavigator().handleError(throwable);
-    }
 }

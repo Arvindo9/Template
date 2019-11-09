@@ -77,8 +77,4 @@ public abstract class BaseViewModel<N> extends ViewModel {
         return mSchedulerProvider;
     }
 
-    public void onResponse(int responseCode, Object object) {}
-
-    public void onError(Throwable throwable) {}
-
 }

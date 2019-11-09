@@ -20,12 +20,18 @@ import java.util.List;
  */
 public interface Task {
 
+    interface TaskCallBack{
+        void onResponse(String responseCode, Object object);
+
+        void onError(Throwable throwable);
+    }
+
     void getFlagApi();
 
-    <V extends BaseViewModel> void getFlagApi(V viewModel);
+    void getFlagApi(TaskCallBack viewModel);
 
     void saveFlagDb(List<Flag> list, String flagBaseUrl);
 
-    <V extends BaseViewModel> void getFlagDb(V viewModel);
+    void getFlagDb(TaskCallBack viewModel);
 
 }

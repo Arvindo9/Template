@@ -48,8 +48,12 @@ public class SplashActivity extends BaseActivity<SplashActivityBinding, SplashVi
         this.binding = binding;
     }
 
+    /**
+     * @param state Initialise any thing here before data binding
+     * @param args  this is the data which passes by previous activity or context
+     */
     @Override
-    protected void initialization(@Nullable Bundle state) {
+    protected void initialization(Bundle state, Bundle args) {
 
     }
 

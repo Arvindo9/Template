@@ -47,4 +47,8 @@
     <dimen name="_150dp">150dp</dimen>
     <dimen name="_180dp">180dp</dimen>
     <dimen name="touch_raise">10dp</dimen>
+
+
+    <dimen name="card_corner_radius_default">2dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
 </resources>

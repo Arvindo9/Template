@@ -10,10 +10,10 @@ import java.util.List;
 
 import javax.inject.Singleton;
 
-import static com.aiprog.template.utils.AppConstants.FLAG_EMPTY_API;
-import static com.aiprog.template.utils.AppConstants.FLAG_GET_ERROR_DB;
-import static com.aiprog.template.utils.AppConstants.FLAG_GET_SUCCESS_API;
-import static com.aiprog.template.utils.AppConstants.FLAG_GET_SUCCESS_DB;
+import static com.aiprog.template.utils.AppConstants.API_EMPTY;
+import static com.aiprog.template.utils.AppConstants.API_SUCCESS;
+import static com.aiprog.template.utils.AppConstants.DB_ERROR;
+import static com.aiprog.template.utils.AppConstants.DB_SUCCESS;
 import static com.aiprog.template.utils.AppConstants.RESULT_SUCCESS;
 
 /**
@@ -44,7 +44,7 @@ public class Tasks extends BaseViewModel<Task> implements Task{
     }
 
     @Override
-    public <V extends BaseViewModel> void getFlagApi(V viewModel) {
+    public void getFlagApi(TaskCallBack viewModel) {
         _getFlagApi(viewModel);
     }
 
@@ -54,25 +54,25 @@ public class Tasks extends BaseViewModel<Task> implements Task{
     }
 
     @Override
-    public <V extends BaseViewModel> void getFlagDb(V viewModel) {
+    public void getFlagDb(TaskCallBack viewModel) {
         _getFlagDb(viewModel);
     }
 
     //Flag----------------------------------
 
 
-    private <V extends BaseViewModel> void  _getFlagApi(V viewModel) {
+    private void  _getFlagApi(TaskCallBack viewModel) {
         getCompositeDisposable().add(getDataManager()
                 .countryCode()
                 .subscribeOn(getSchedulerProvider().io())
                 .observeOn(getSchedulerProvider().newThread())
                 .subscribe(response -> {
                     if (response != null && response.getStatus() == RESULT_SUCCESS) {
-                        viewModel.onResponse(FLAG_GET_SUCCESS_API, response);
+                        viewModel.onResponse(API_SUCCESS, response);
                         _saveFlagDb( response.getData().getFlag(), response.getData().getFlagBaseUrl());
                     }
                     else{
-                        viewModel.onResponse(FLAG_EMPTY_API, response);
+                        viewModel.onResponse(API_EMPTY, response);
                     }
                 }, Throwable::printStackTrace));
     }
@@ -115,18 +115,18 @@ public class Tasks extends BaseViewModel<Task> implements Task{
     }
 
 
-    private <V extends BaseViewModel> void _getFlagDb(V viewModel) {
+    private void _getFlagDb(TaskCallBack viewModel) {
         getCompositeDisposable().add(getDataManager()
                 .getAllFlagsDb()
                 .subscribeOn(getSchedulerProvider().io())
                 .observeOn(getSchedulerProvider().ui())
                 .subscribe(response -> {
                     if(response != null && !response.isEmpty()){
-                        viewModel.onResponse(FLAG_GET_SUCCESS_DB, response);
+                        viewModel.onResponse(DB_SUCCESS, response);
                     }
                     //Inserted
                 }, throwable -> {
-                    viewModel.onResponse(FLAG_GET_ERROR_DB, throwable);
+                    viewModel.onResponse(DB_ERROR, throwable);
                 }));
     }
 

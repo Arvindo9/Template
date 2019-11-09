@@ -1,0 +1,50 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 16 min SDK version: arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\arm64-v8a\\android_gradle_build.json due to:"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\arm64-v8a\\android_gradle_build.json file is not present, will remove stale json folder"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\arm64-v8a\\build_command.txt, will remove stale json folder"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\arm64-v8a\u0027"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\arm64-v8a\u0027"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe\narguments : \n-HD:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\n-BD:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\arm64-v8a\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_PLATFORM\u003dandroid-16\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\Computer\\android\\KinG\\template\\Template\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DANDROID_NDK\u003dC:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\ndk-bundle\n-DCMAKE_CXX_FLAGS\u003d\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\ndk-bundle\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake\n-G Ninja\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe\njvmArgs : \n\n"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\arm64-v8a\\build_output.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\arm64-v8a\\build_command.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems"
+  }
+]

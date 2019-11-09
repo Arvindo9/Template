@@ -1,0 +1,3 @@
+ninja: Entering directory `D:\Computer\android\KinG\template\Template\app\.cxx\cmake\debug\arm64-v8a'
+[1/2] Building CXX object CMakeFiles/algorithm-lib.dir/algorithm-lib.cpp.o
+[2/2] Linking CXX shared library D:\Computer\android\KinG\template\Template\app\build\intermediates\cmake\debug\obj\arm64-v8a\libalgorithm-lib.so

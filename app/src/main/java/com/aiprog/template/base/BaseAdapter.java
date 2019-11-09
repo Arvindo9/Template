@@ -15,7 +15,6 @@ import androidx.databinding.ViewDataBinding;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Author       : Arvindo Mondal
@@ -85,7 +84,7 @@ public abstract class BaseAdapter<B extends ViewDataBinding, D> extends
 
     @Override
 //    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull BaseAdapter.ViewHolder holder, int position) {
         holder.bind(list.get(position), position);
     }
 
@@ -322,6 +321,7 @@ public abstract class BaseAdapter<B extends ViewDataBinding, D> extends
          * @param view The view that was clicked.
          *          switch (view.getId()){
          *                             case R.id.id:
+         *                                 // itemView.getContext().startActivity();
          *                                 break;
          *                         }
          */

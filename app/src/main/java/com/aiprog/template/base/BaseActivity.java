@@ -5,35 +5,41 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import androidx.databinding.DataBindingUtil;
-import androidx.databinding.ViewDataBinding;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
-import androidx.annotation.LayoutRes;
-import androidx.annotation.Nullable;
-import com.google.android.material.snackbar.Snackbar;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
-import androidx.appcompat.app.AppCompatActivity;
 import android.util.SparseIntArray;
 import android.util.TypedValue;
 import android.view.View;
-import android.view.Window;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.LayoutRes;
+import androidx.annotation.RequiresApi;
+import androidx.annotation.StyleRes;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+import androidx.databinding.DataBindingUtil;
+import androidx.databinding.ViewDataBinding;
+import androidx.fragment.app.DialogFragment;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.aiprog.template.R;
+import com.aiprog.template.utils.AppConstants;
+import com.aiprog.template.utils.Logger;
+import com.google.android.material.snackbar.Snackbar;
 
 import org.jetbrains.annotations.NotNull;
 
 import dagger.android.AndroidInjection;
-
 
 /**
  * Author       : Arvindo Mondal
@@ -51,13 +57,10 @@ import dagger.android.AndroidInjection;
 public abstract class BaseActivity<B extends ViewDataBinding, V extends BaseViewModel>
         extends AppCompatActivity implements BaseFragment.Callback{
 
-    private static final int REQUEST_PERMISSIONS = 20;
     protected boolean REQUEST_PERMISSION_FOR_ACTIVITY = true;
     private B binding;
     private V viewModel;
-    public Context context;
-    public Activity activity;
-    private SparseIntArray mErrorString;
+    private int titleIndex = 0;
 
     /**
      *
@@ -65,28 +68,16 @@ public abstract class BaseActivity<B extends ViewDataBinding, V extends BaseView
      */
     public abstract void getActivityBinding(B binding);
 
-    /**
-     *
-     * @return activity, Activity class activity or instance
-     */
-    public Activity getActivity() {
-        return activity;
-    }
-
+    @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         performDependencyInjection();
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+//        requestWindowFeature(Window.FEATURE_NO_TITLE);
+//        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
-        context = this;
-        activity = this;
-        initialization(savedInstanceState);
+        initialization(savedInstanceState, getIntent().getBundleExtra(AppConstants.KEY_DEFAULT_ACTIVITY_BUNDLE));
         performDataBinding();
-//        setTitle();
         init();
-
-        mErrorString = new SparseIntArray();
     }
 
     @Override
@@ -95,10 +86,29 @@ public abstract class BaseActivity<B extends ViewDataBinding, V extends BaseView
         if(REQUEST_PERMISSION_FOR_ACTIVITY) {
             checkAllPermission();
         }
+        Logger.e("onStart");
     }
 
+    @Override
+    protected void onRestart() {
+        super.onRestart();
 
-    private void performDataBinding() {
+        if(getSupportActionBar() != null && titleIndex != 0){
+            getSupportActionBar().setTitle(titleIndex);
+        }
+        Logger.e("onRestart");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        binding = null;
+        viewModel = null;
+        System.gc();
+    }
+
+    protected void performDataBinding() {
         binding = DataBindingUtil.setContentView(this, getLayout());
         this.viewModel = viewModel == null ? getViewModel() : viewModel;
         binding.setVariable(getBindingVariable(), viewModel);
@@ -109,8 +119,10 @@ public abstract class BaseActivity<B extends ViewDataBinding, V extends BaseView
     /**
      *
      * @param state Initialise any thing here before data binding
+     * @param args this is the data which passes by previous activity or context
      */
-    protected abstract void initialization(@Nullable Bundle state);
+    protected abstract void initialization(Bundle state, Bundle args);
+
 
     /**
      *
@@ -127,11 +139,6 @@ public abstract class BaseActivity<B extends ViewDataBinding, V extends BaseView
     public abstract int getBindingVariable();
 
     /**
-     * Set the title of activity here or leave it blank
-     */
-//    protected abstract void setTitle();
-
-    /**
      * Override for get the instance of viewModel
      *
      * @return viewModel = ViewModelProviders.of(this,factory).get(WelcomeViewModel.class);
@@ -144,17 +151,19 @@ public abstract class BaseActivity<B extends ViewDataBinding, V extends BaseView
      */
     protected abstract void init();
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-
-        binding = null;
-        viewModel = null;
-        activity = null;
-        context = null;
-        mErrorString = null;
-
-        System.gc();
+    /**
+     * Call this method to set up the toolbar and title
+     * @param toolbar xml toolbar
+     * @param titleIndex title in toolbar
+     */
+    protected void setToolbar(Toolbar toolbar, int titleIndex){
+        this.titleIndex = titleIndex;
+        setSupportActionBar(toolbar);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+            getSupportActionBar().setTitle(titleIndex);
+        }
     }
 
     @Override
@@ -163,7 +172,7 @@ public abstract class BaseActivity<B extends ViewDataBinding, V extends BaseView
     }
 
     @Override
-    public void onFragmentDetached(String tag) {
+    public void onFragmentDetached() {
 
     }
 
@@ -180,18 +189,18 @@ public abstract class BaseActivity<B extends ViewDataBinding, V extends BaseView
         finish();
     }
 
-    //-------------------Message show--------------------------
+    //-------------------Messages show--------------------------
 
     public void showToast(int index){
-        Toast.makeText(context, getString(index), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, getString(index), Toast.LENGTH_SHORT).show();
     }
 
     public void showToast(String message){
-        Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 
     public void showToastLong(int index){
-        Toast.makeText(context, getString(index), Toast.LENGTH_LONG).show();
+        Toast.makeText(this, getString(index), Toast.LENGTH_LONG).show();
     }
 
     //-------------------Permission----------------------------
@@ -204,13 +213,13 @@ public abstract class BaseActivity<B extends ViewDataBinding, V extends BaseView
     }
 
     public boolean isPermissionGranted() {
-        int permissionState = ActivityCompat.checkSelfPermission(context,
+        int permissionState = ActivityCompat.checkSelfPermission(this,
                 Manifest.permission.ACCESS_COARSE_LOCATION);
         return permissionState == PackageManager.PERMISSION_GRANTED;
     }
 
     public boolean isPermissionGrantedCamera() {
-        int permissionState = ActivityCompat.checkSelfPermission(context,
+        int permissionState = ActivityCompat.checkSelfPermission(this,
                 Manifest.permission.CAMERA);
         return permissionState == PackageManager.PERMISSION_GRANTED;
     }
@@ -219,10 +228,16 @@ public abstract class BaseActivity<B extends ViewDataBinding, V extends BaseView
         try {
             requestAppPermissions(new String[]{
                             Manifest.permission.INTERNET,
-                            Manifest.permission.ACCESS_NETWORK_STATE
+                            Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                            Manifest.permission.ACCESS_NETWORK_STATE,
+                            Manifest.permission.ACCESS_WIFI_STATE,
+                            Manifest.permission.ACCESS_FINE_LOCATION,
+                            Manifest.permission.ACCESS_COARSE_LOCATION,
+                            Manifest.permission.READ_PHONE_STATE,
+                            Manifest.permission.CAMERA
                     },
                     R.string.str_ShowOnPermisstion,
-                    REQUEST_PERMISSIONS);
+                    AppConstants.REQUEST_PERMISSIONS);
         } catch (Exception ex) {
             ex.printStackTrace();
         }
@@ -237,9 +252,6 @@ public abstract class BaseActivity<B extends ViewDataBinding, V extends BaseView
         }
         if ((grantResults.length > 0) && permissionCheck == PackageManager.PERMISSION_GRANTED) {
             //permission already granted
-//            onPermissionsGranted(requestCode);
-//            createFolder();
-
             onPermissionGranted();
         } else {
             Snackbar mSnackBar = Snackbar.make(findViewById(android.R.id.content),
@@ -270,6 +282,7 @@ public abstract class BaseActivity<B extends ViewDataBinding, V extends BaseView
 
     public void requestAppPermissions(final String[] requestedPermissions,
                                       final int stringId, final int requestCode) {
+        SparseIntArray mErrorString = new SparseIntArray();
         mErrorString.put(requestCode, stringId);
         int permissionCheck = PackageManager.PERMISSION_GRANTED;
         boolean shouldShowRequestPermissionRationale = false;
@@ -300,12 +313,6 @@ public abstract class BaseActivity<B extends ViewDataBinding, V extends BaseView
                 ActivityCompat.requestPermissions(this, requestedPermissions, requestCode);
             }
         }
-//        else {
-//            createFolder();
-            //onSuccess permission grant
-//            onPermissionsGranted(requestCode);
-//            onPermissionGranted();
-//        }
     }
 
     //-----------------------TaskActivity----------------------------
@@ -347,6 +354,82 @@ public abstract class BaseActivity<B extends ViewDataBinding, V extends BaseView
             getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
         }
     }
+
+    public <C extends Activity> void startActivity(Class<C> targetActivityClass){
+        startActivity(new Intent(this, targetActivityClass));
+    }
+
+    public <C extends Activity> void startActivity(Class<C> targetActivityClass, Bundle bundle){
+        Intent intent = new Intent(this, targetActivityClass);
+        intent.putExtra(AppConstants.KEY_DEFAULT_ACTIVITY_BUNDLE, bundle);
+        startActivity(intent);
+    }
+
+
+    /**
+     *
+     * @param fragment new Fragment();
+     * @param tag Fragment.TAG or Fragment.class.getSimpleName()
+     */
+/*
+    public void startFragment(Fragment fragment, String tag){
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.fragment, fragment, tag);
+//        transaction.addToBackStack(fragmentClassName);
+        transaction.commit();
+    }
+    */
+
+    /**
+     *
+     * @param fragment new Fragment();
+     * @param tag Fragment.TAG or Fragment.class.getSimpleName()
+     * @param bundle for extra params
+     */
+    /*
+    public void startFragment(Fragment fragment, String tag, Bundle bundle){
+        fragment.setArguments(bundle);
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.fragment, fragment, tag);
+//        transaction.addToBackStack(fragmentClassName);
+        transaction.commit();
+    }
+*/
+
+    /**
+     *
+     * @param dialog new Dialog();
+     * @param tag Dialog.TAG or Dialog.class.getSimpleName()
+     */
+    public void startDialog(DialogFragment dialog, String tag){
+        dialog.setStyle(DialogFragment.STYLE_NORMAL, R.style.default_dialog);
+        dialog.show(getSupportFragmentManager(), tag);
+    }
+
+    /**
+     *
+     * @param dialog new Dialog();
+     * @param tag Dialog.TAG or Dialog.class.getSimpleName()
+     * @param bundle for extra params
+     */
+    public void startDialog(DialogFragment dialog, String tag, Bundle bundle){
+        dialog.setArguments(bundle);
+        dialog.setStyle(DialogFragment.STYLE_NORMAL, R.style.default_dialog);
+        dialog.show(getSupportFragmentManager(), tag);
+    }
+
+    /**
+     *
+     * @param dialog new Dialog();
+     * @param tag Dialog.TAG or Dialog.class.getSimpleName()
+     * @param bundle for extra params
+     */
+    public void startDialog(DialogFragment dialog, String tag, Bundle bundle, @StyleRes int styleId){
+        dialog.setArguments(bundle);
+        dialog.setStyle(DialogFragment.STYLE_NORMAL, styleId);
+        dialog.show(getSupportFragmentManager(), tag);
+    }
+
 /*
     public void showLoading() {
         hideLoading();

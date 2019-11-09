@@ -125,11 +125,21 @@ dependencies {
     //Dependencies for Lifecycle, including LiveData and ViewModel
 
     // ViewModel and LiveData
-    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
-    annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+    annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.1.0'
     //-----------------------------------------------------------
 
     //location
     implementation 'com.google.android.gms:play-services-location:17.0.0'
     implementation 'com.google.firebase:firebase-messaging:20.0.0'
+
+
+    // Navigation-------------------------------------------------
+    implementation "androidx.navigation:navigation-fragment:2.1.0"
+    implementation "androidx.navigation:navigation-ui:2.1.0"
+
+    //Stetho Facebook Network debugger----------------------------
+    implementation 'com.facebook.stetho:stetho:1.5.1'
+    implementation 'com.facebook.stetho:stetho-okhttp3:1.5.1'
+    implementation 'androidx.emoji:emoji:1.0.0'
 }

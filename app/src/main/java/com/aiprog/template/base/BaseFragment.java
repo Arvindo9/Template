@@ -13,6 +13,10 @@ import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import androidx.fragment.app.Fragment;
 
+import com.aiprog.template.utils.Logger;
+
+import org.jetbrains.annotations.NotNull;
+
 import dagger.android.support.AndroidSupportInjection;
 
 /**
@@ -28,21 +32,20 @@ import dagger.android.support.AndroidSupportInjection;
  * Skills       : Algorithms and logic
  * Website      : www.aiprog.in
  */
-public abstract class BaseFragment<B extends ViewDataBinding,
-        V extends BaseViewModel>
+public abstract class BaseFragment<B extends ViewDataBinding, V extends BaseViewModel>
         extends Fragment {
 
-//    private A activityCalss;
     private BaseActivity activity;
     private Context context;
-    private B bindingF;
-    private V viewModelF;
+    private B binding;
+    private V viewModel;
+    private final String FragmentContextExecption = "Fragment exception";
 
     public interface Callback {
 
         void onFragmentAttached();
 
-        void onFragmentDetached(String tag);
+        void onFragmentDetached();
     }
 
     /**
@@ -50,14 +53,6 @@ public abstract class BaseFragment<B extends ViewDataBinding,
      * @param binding is used in current attached fragment
      */
     public abstract void getFragmentBinding(B binding);
-
-    public V getFragmentViewModelF(){
-        return viewModelF;
-    }
-
-//    public BaseActivity getActivityClass(){
-//        return activity;
-//    }
 
     public BaseActivity getBaseActivity() {
         return activity;
@@ -69,11 +64,10 @@ public abstract class BaseFragment<B extends ViewDataBinding,
 
 
     @Override
-    public void onAttach(Context context) {
+    public void onAttach(@NotNull(FragmentContextExecption) Context context) {
         super.onAttach(context);
         if (context instanceof BaseActivity) {
             BaseActivity activity = (BaseActivity) context;
-//            this.activity = (A) activity;
             this.activity = activity;
             this.context = context;
             activity.onFragmentAttached();
@@ -84,31 +78,39 @@ public abstract class BaseFragment<B extends ViewDataBinding,
     public void onCreate(@Nullable Bundle savedInstanceState) {
         performDependencyInjection();
         super.onCreate(savedInstanceState);
-        viewModelF = getViewModel();
-        setHasOptionsMenu(false);
 
-        onCreateFragment(savedInstanceState);
+        viewModel = getViewModel();
+        onCreateFragment(savedInstanceState, getArguments());
+        setHasOptionsMenu(false);
     }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        bindingF = DataBindingUtil.inflate(inflater, getLayout(), container, false);
-        getFragmentBinding(bindingF);
-        View view = bindingF.getRoot();
-        init();
+        binding = DataBindingUtil.inflate(inflater, getLayout(), container, false);
+        getFragmentBinding(binding);
+        View view = binding.getRoot();
+//        init();
+
+        Logger.e("Fragment onCreateView");
         return view;
     }
 
     @Override
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        bindingF.setVariable(getBindingVariable(), viewModelF);
-        bindingF.executePendingBindings();
+        binding.setVariable(getBindingVariable(), viewModel);
+        binding.executePendingBindings();
 
+        init();
         if(setTitle() != 0) {
-            activity.setTitle(setTitle());
+            if(activity.getSupportActionBar() != null) {
+                activity.getSupportActionBar().setTitle(setTitle());
+            }
+            else {
+                activity.setTitle(setTitle());
+            }
         }
     }
 
@@ -127,7 +129,7 @@ public abstract class BaseFragment<B extends ViewDataBinding,
     public abstract V getViewModel();
 
     /**
-     * Override for set bindingF variable
+     * Override for set binding variable
      *
      * @return BR.data;
      */
@@ -144,8 +146,9 @@ public abstract class BaseFragment<B extends ViewDataBinding,
      *
      * @param savedInstanceState save the instance of fragment before closing
      *                           viewModel.setNavigator(this);
+     * @param args
      */
-    protected abstract void onCreateFragment(Bundle savedInstanceState);
+    protected abstract void onCreateFragment(Bundle savedInstanceState, Bundle args);
 
     /**
      * Write rest of the code of fragment in onCreateView after view created
@@ -161,14 +164,15 @@ public abstract class BaseFragment<B extends ViewDataBinding,
 
     @Override
     public void onDetach() {
-        activity = null;
         super.onDetach();
+        getBaseActivity().onFragmentDetached();
+        activity = null;
 
         System.gc();
     }
 
     public B getDataBinding() {
-        return bindingF;
+        return binding;
     }
 
     private void performDependencyInjection() {
@@ -191,4 +195,6 @@ public abstract class BaseFragment<B extends ViewDataBinding,
     public boolean isNetworkConnected() {
         return activity != null && activity.isNetworkAvailable();
     }
+
+    //------------
 }

@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "algorithm-lib-Debug-x86_64": {
+      "artifactName": "algorithm-lib",
+      "buildCommand": "C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\debug\\x86_64\" algorithm-lib",
+      "abi": "x86_64",
+      "output": "D:\\Computer\\android\\KinG\\template\\Template\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libalgorithm-lib.so"
+    }
+  }
+}
