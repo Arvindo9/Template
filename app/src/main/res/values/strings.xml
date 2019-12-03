@@ -52,5 +52,6 @@
     <string name="pin_code_empty">Empty pin code</string>
     <string name="pin_code_too_short">Pin code too short</string>
     <string name="mobile_number_empty">Mobile number is empty</string>
+    <string name="rectangle">Rectangle</string>
 
 </resources>

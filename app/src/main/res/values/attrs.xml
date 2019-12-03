@@ -10,4 +10,48 @@
         <attr name="civ_border_overlay" format="boolean" />
         <attr name="civ_circle_background_color" format="color" />
     </declare-styleable>
+
+
+    <declare-styleable name="BaseImageView">
+        <attr name="ImageUrl" format="string" />
+        <attr name="ImageShape" format="string" />
+        <attr name="ImageName" format="string" />
+        <attr name="BorderColor" format="color" />
+        <attr name="BackgroundInitialColor" format="color" />
+        <attr name="BorderWidth" format="dimension" />
+        <attr name="ImageCornerRadius" format="dimension" />
+    </declare-styleable>
+
+    <attr name="BaseImageView" format="reference" />
+
+    <!--Custom text-->
+
+    <attr name="TextColor" format="color" />
+    <attr name="TextBackground" format="color" />
+    <attr name="RightMargin" format="dimension" />
+    <attr name="Layout" format="reference" />
+    <attr name="TopMargin" format="dimension" />
+
+    <declare-styleable name="BaseLinearTextHorizontal">
+        <attr name="TextColor" />
+        <attr name="TextBackground" />
+        <attr name="RightMargin" />
+        <attr name="Layout" />
+        <attr name="LayoutText" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BaseLinearKeyText">
+        <attr name="TextColor" />
+        <attr name="TextBackground" />
+        <attr name="Layout" />
+        <attr name="TopMargin" />
+    </declare-styleable>
+
+    <declare-styleable name="BaseLinearTableText">
+        <attr name="TextColor" />
+        <attr name="TextBackground" />
+        <attr name="Layout" />
+        <attr name="TopMargin" />
+    </declare-styleable>
+
 </resources>

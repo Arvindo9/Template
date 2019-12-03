@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:text="jndfjdfn k mdfm kfmkdf"
+    android:background="@drawable/home_info_general_answer_text"
+    android:textColor="@color/gray"
+    android:textSize="18sp"
+    android:includeFontPadding="false" />
