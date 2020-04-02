@@ -21,7 +21,7 @@ import ai.aiprog.template.BuildConfig;
 /**
  * Author       : Arvindo Mondal
  * Created on   : 09-05-2019
- * Email        : arvindo@aiprog.in
+ * Email        : arvindo@aiprog.ai
  * Company      : AIPROG
  * Designation  : Programmer
  * About        : I am a human can only think, I can't be a person like machine which have lots of memory and knowledge.
@@ -29,7 +29,7 @@ import ai.aiprog.template.BuildConfig;
  * Strength     : Never give up
  * Motto        : To be known as great Mathematician
  * Skills       : Algorithms and logic
- * Website      : www.aiprog.in
+ * Website      : www.aiprog.ai
  */
 
 public class AppConstants {
@@ -67,6 +67,18 @@ public class AppConstants {
     public static final String NOTIFICATION_TOPIC_MESSAGE = "message";
     public static final String NOTIFICATION_TOPIC_MATCH = "NOTIFICATION_TOPIC_MATCH";
     public static final String NOTIFICATION_TOPIC_ROSE = "NOTIFICATION_TOPIC_ROSE";
+
+    public static final String LOGOUT_CODE = "100";
+    public static final String BLOCK_CODE = "200";
+    public static final String KEY_FROM_SERVICE = "KEY_FROM_SERVICE";
+    public static final String KEY_FROM_SERVICE_MESSAGE = "KEY_NEW_MESSAGE";
+    public static final String INTENT_SERVER_RECEIVE = "LogoutSession";
+    public static final String INTENT_SERVER_RECEIVE_MESSAGES = "MessageBroadcast";
+    public static final String VALUE_FROM_SERVICE_MESSAGE = "NewMessages";
+
+    public static final String PUSH_MESSAGE_TYPE = "message";
+
+
 
 
     //Base activity-------------------

@@ -1,7 +1,0 @@
-Executable : C:\Users\KinG\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
-arguments : 
--C
-D:\Computer\android\KinG\template\Template\app\.cxx\cmake\debug\x86
-algorithm-lib
-jvmArgs : 
-

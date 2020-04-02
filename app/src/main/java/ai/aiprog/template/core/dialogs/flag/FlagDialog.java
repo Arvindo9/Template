@@ -25,7 +25,7 @@ import javax.inject.Inject;
 /**
  * Author       : Arvindo Mondal
  * Created on   : 22-05-2019
- * Email        : arvindo@aiprog.in
+ * Email        : arvindo@aiprog.ai
  * Company      : AIPROG
  * Designation  : Programmer
  * About        : I am a human can only think, I can't be a person like machine which have lots of memory and knowledge.
@@ -33,7 +33,7 @@ import javax.inject.Inject;
  * Strength     : Never give up
  * Motto        : To be known as great Mathematician
  * Skills       : Algorithms and logic
- * Website      : www.aiprog.in
+ * Website      : www.aiprog.ai
  */
 public class FlagDialog extends BaseDialog<FlagDialogBinding, FlagViewModel> implements FlagNavigator,
         FlagAdapter.FlagAdapterListener {

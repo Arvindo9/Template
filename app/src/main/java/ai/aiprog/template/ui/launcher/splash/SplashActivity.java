@@ -19,7 +19,7 @@ import javax.inject.Inject;
 /**
  * Author       : Arvindo Mondal
  * Created on   : 09-05-2019
- * Email        : arvindo@aiprog.in
+ * Email        : arvindo@aiprog.ai
  * Company      : AIPROG
  * Designation  : Programmer
  * About        : I am a human can only think, I can't be a person like machine which have lots of memory and knowledge.
@@ -27,16 +27,12 @@ import javax.inject.Inject;
  * Strength     : Never give up
  * Motto        : To be known as great Mathematician
  * Skills       : Algorithms and logic
- * Website      : www.aiprog.in
+ * Website      : www.aiprog.ai
  */
 public class SplashActivity extends BaseActivity<SplashActivityBinding, SplashViewModel> implements SplashNavigator {
     private SplashViewModel viewModel;
 
     private SplashActivityBinding binding;
-
-    public static Intent newIntent(Context context) {
-        return new Intent(context, SplashActivity.class);
-    }
 
     @Override
     public void getActivityBinding(SplashActivityBinding binding) {
@@ -139,11 +135,11 @@ public class SplashActivity extends BaseActivity<SplashActivityBinding, SplashVi
 
     @Override
     public void showMessage(String message) {
-
+        showToast(message);
     }
 
     @Override
     public void showMessage(int message) {
-
+        showToast(message);
     }
 }

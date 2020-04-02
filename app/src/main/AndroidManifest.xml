@@ -24,6 +24,7 @@
             </intent-filter>
         </activity>
         <activity android:name="ai.aiprog.template.ui.launcher.welcome.WelcomeActivity" />
+        <activity android:name=".ui.launcher.credential.LoginActivity" />
     </application>
 
 </manifest>

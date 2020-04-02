@@ -18,7 +18,7 @@ import java.lang.ref.WeakReference;
 /**
  * Author       : Arvindo Mondal
  * Created on   : 17-06-2019
- * Email        : arvindo@aiprog.in
+ * Email        : arvindo@aiprog.ai
  * Company      : AIPROG
  * Designation  : Programmer
  * About        : I am a human can only think, I can't be a person like machine which have lots of memory and knowledge.
@@ -26,7 +26,7 @@ import java.lang.ref.WeakReference;
  * Strength     : Never give up
  * Motto        : To be known as great Mathematician
  * Skills       : Algorithms and logic
- * Website      : www.aiprog.in
+ * Website      : www.aiprog.ai
  */
 public class DeviceId {
 

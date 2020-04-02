@@ -3,7 +3,7 @@ package ai.aiprog.template.ui.home;
 /**
  * Author       : Arvindo Mondal
  * Created on   : 28-07-2019
- * Email        : arvindo@aiprog.in
+ * Email        : arvindo@aiprog.ai
  * Company      : AIPROG
  * Designation  : Programmer
  * About        : I am a human can only think, I can't be a person like machine which have lots of memory and knowledge.
@@ -11,7 +11,9 @@ package ai.aiprog.template.ui.home;
  * Strength     : Never give up
  * Motto        : To be known as great Mathematician
  * Skills       : Algorithms and logic
- * Website      : www.aiprog.in
+ * Website      : www.aiprog.ai
  */
 public class HomeActivity {
+
+
 }

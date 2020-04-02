@@ -11,7 +11,7 @@ import static ai.aiprog.template.utils.setup.AppConstants.DATA_TYPE_IMAGE;
 /**
  * Author       : Arvindo Mondal
  * Created on   : 21-06-2019
- * Email        : arvindo@aiprog.in
+ * Email        : arvindo@aiprog.ai
  * Company      : AIPROG
  * Designation  : Programmer
  * About        : I am a human can only think, I can't be a person like machine which have lots of memory and knowledge.
@@ -19,7 +19,7 @@ import static ai.aiprog.template.utils.setup.AppConstants.DATA_TYPE_IMAGE;
  * Strength     : Never give up
  * Motto        : To be known as great Mathematician
  * Skills       : Algorithms and logic
- * Website      : www.aiprog.in
+ * Website      : www.aiprog.ai
  */
 public class Params {
 

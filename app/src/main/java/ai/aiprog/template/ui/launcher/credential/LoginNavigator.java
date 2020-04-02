@@ -1,9 +1,9 @@
-package ai.aiprog.template.data.remote;
+package ai.aiprog.template.ui.launcher.credential;
 
 
 /**
  * Author       : Arvindo Mondal
- * Created on   : 09-05-2019
+ * Created date : 13-08-2019
  * Email        : arvindo@aiprog.ai
  * Company      : AIPROG
  * Designation  : Programmer
@@ -14,8 +14,5 @@ package ai.aiprog.template.data.remote;
  * Skills       : Algorithms and logic
  * Website      : www.aiprog.ai
  */
-public final class ApiConfig {
-
-    private ApiConfig(){}
-
+public interface LoginNavigator {
 }

@@ -25,7 +25,7 @@ import javax.inject.Inject;
 /**
  * Author       : Arvindo Mondal
  * Created on   : 13-05-2019
- * Email        : arvindo@aiprog.in
+ * Email        : arvindo@aiprog.ai
  * Company      : AIPROG
  * Designation  : Programmer
  * About        : I am a human can only think, I can't be a person like machine which have lots of memory and knowledge.
@@ -33,7 +33,7 @@ import javax.inject.Inject;
  * Strength     : Never give up
  * Motto        : To be known as great Mathematician
  * Skills       : Algorithms and logic
- * Website      : www.aiprog.in
+ * Website      : www.aiprog.ai
  */
 public class WelcomeActivity extends BaseActivity<WelcomeActivityBinding, WelcomeViewModel> implements WelcomeNavigator {
     private WelcomeViewModel viewModel;
@@ -46,11 +46,6 @@ public class WelcomeActivity extends BaseActivity<WelcomeActivityBinding, Welcom
     private TextView[] mDots;
     private boolean isNextActivityStart = false;
     private WelcomeActivityBinding binding;
-    private Context context;
-
-    public static Intent newIntent(Context context) {
-        return new Intent(context, WelcomeActivity.class);
-    }
 
     /**
      * @param binding activity class data binding
@@ -116,7 +111,7 @@ public class WelcomeActivity extends BaseActivity<WelcomeActivityBinding, Welcom
 
     private void openStartAppActivity() {
         if(!isNextActivityStart) {
-            startActivity(LoginActivity.newIntent(context));
+            startActivity(LoginActivity.class);
             finish();
             isNextActivityStart = true;
         }
