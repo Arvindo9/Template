@@ -5,7 +5,7 @@
     <data>
         <variable
             name="data"
-            type="com.aiprog.template.ui.launcher.welcome.WelcomeViewModel" />
+            type="ai.aiprog.template.ui.launcher.welcome.WelcomeViewModel" />
     </data>
 
 

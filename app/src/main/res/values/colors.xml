@@ -4,6 +4,17 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
 
+    <!--Text-->
+    <color name="textColorDefault">#2b2b2b</color>
+    <color name="textColorLight">#FFFFFF</color>
+    <color name="textColored">@color/colorAccent</color>
+    <color name="textError">#8C0A0A</color>
+    <color name="textShadowDefaultLight">#000000</color>
+    <color name="textShadowDefault">#5A5757</color>     <!-- for dark text-->
+
+    <!--Ripple-->
+    <color name="click_ripple_color">#C8DFDCDF</color>
+    <color name="click_ripple_color_inner">#C8DFDCDF</color>
 
     <!-- Resources-->
     <color name="snackBarActionColor">@color/colorPrimary</color>
@@ -17,5 +28,6 @@
     <!-- Custom-->
     <color name="welcomePagerDots">#756E6E</color>
 
-    <color name="fifty_percent_transparency_grey">#80bdbdbd</color>
+
+
 </resources>

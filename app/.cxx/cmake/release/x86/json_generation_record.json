@@ -1,0 +1,1124 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 19 min SDK version: x86",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Trying to locate CMake in local SDK repository.",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\add-ons\\addon-google_apis-google-15\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\add-ons\\addon-google_apis-google-16\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\add-ons\\addon-google_apis-google-17\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\add-ons\\addon-google_apis-google-18\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\add-ons\\addon-google_apis-google-19\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\add-ons\\addon-google_apis-google-21\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\add-ons\\addon-google_apis-google-22\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\add-ons\\addon-google_apis-google-23\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\add-ons\\addon-google_apis-google-24\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\19.1.0\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\20.0.0\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\21.1.2\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\22.0.1\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\23.0.1\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\23.0.2\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\23.0.3\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\24.0.0\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\24.0.1\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\24.0.2\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\24.0.3\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\25.0.0\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\25.0.1\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\25.0.2\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\25.0.3\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\26.0.0\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\26.0.1\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\26.0.2\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\26.0.3\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\27.0.0\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\27.0.1\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\27.0.2\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\27.0.3\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\28.0.0\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\28.0.0-rc1\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\28.0.0-rc2\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\28.0.1\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\28.0.2\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\28.0.3\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.0\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.0-rc1\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.0-rc2\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.0-rc3\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.1\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.2\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.3\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0-rc1\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\docs\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\emulator\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\android\\gapid\\1\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\android\\gapid\\3\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\android\\m2repository\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\google\\Android_Emulator_Hypervisor_Driver\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\google\\auto\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\google\\google_play_services\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\google\\instantapps\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\google\\m2repository\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\google\\market_apk_expansion\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\google\\market_licensing\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\google\\simulators\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\google\\usb_driver\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\google\\webdriver\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\intel\\Hardware_Accelerated_Execution_Manager\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\m2repository\\com\\android\\support\\constraint\\constraint-layout-solver\\1.0.0\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\m2repository\\com\\android\\support\\constraint\\constraint-layout-solver\\1.0.1\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\m2repository\\com\\android\\support\\constraint\\constraint-layout-solver\\1.0.2\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\m2repository\\com\\android\\support\\constraint\\constraint-layout\\1.0.0\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\m2repository\\com\\android\\support\\constraint\\constraint-layout\\1.0.1\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\extras\\m2repository\\com\\android\\support\\constraint\\constraint-layout\\1.0.2\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\lldb\\2.0\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\lldb\\2.1\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\lldb\\2.2\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\lldb\\2.3\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\lldb\\3.0\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\lldb\\3.1\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\ndk\\19.2.5345600\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\patcher\\v4\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platform-tools\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-14\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-15\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-16\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-17\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-18\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-19\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-20\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-21\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-22\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-23\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-24\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-25\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-26\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-27\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-28\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-29\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-8\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-Q\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\platforms\\android-R\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\sources\\android-15\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\sources\\android-16\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\sources\\android-17\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\sources\\android-18\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\sources\\android-19\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\sources\\android-20\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\sources\\android-21\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\sources\\android-22\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\sources\\android-23\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\sources\\android-24\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\sources\\android-25\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\sources\\android-26\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\sources\\android-27\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\sources\\android-28\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\sources\\android-29\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\system-images\\android-24\\google_apis\\x86\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\system-images\\android-28\\google_apis_playstore\\x86\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\tools\\package.xml",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found in SDK at \u0027C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "CMake \u00273.6.0\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\release\\x86\\android_gradle_build.json due to:",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\release\\x86\u0027",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\release\\x86\u0027",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe\narguments : \n-HD:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake\n-DANDROID_ABI\u003dx86\n-DANDROID_NDK\u003dC:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\ndk-bundle\n-DANDROID_PLATFORM\u003dandroid-19\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\ndk-bundle\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\Computer\\android\\KinG\\template\\Template\\app\\build\\intermediates\\cmake\\release\\obj\\x86\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d19\n-BD:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\release\\x86\n-GNinja\njvmArgs : \n\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"D:/Computer/android/KinG/template/Template/app/src/main/cpp\",\n  \"buildDirectory\": \"D:/Computer/android/KinG/template/Template/app/.cxx/cmake/release/x86\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_BUILD_TYPE\\u003dRelease\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003dC:\\\\Users\\\\KinG\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk-bundle\\\\build\\\\cmake\\\\android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003dx86\",\n    \"-DANDROID_NDK\\u003dC:\\\\Users\\\\KinG\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk-bundle\",\n    \"-DANDROID_PLATFORM\\u003dandroid-19\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003dx86\",\n    \"-DCMAKE_ANDROID_NDK\\u003dC:\\\\Users\\\\KinG\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk-bundle\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003dD:\\\\Computer\\\\android\\\\KinG\\\\template\\\\Template\\\\app\\\\build\\\\intermediates\\\\cmake\\\\release\\\\obj\\\\x86\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003dC:\\\\Users\\\\KinG\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.10.2.4988404\\\\bin\\\\ninja.exe\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d19\"\n  ]\n}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe\",\"type\":\"message\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works\",\"type\":\"message\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info - done",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features - done",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe\",\"type\":\"message\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works\",\"type\":\"message\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info - done",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features - done",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring done",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"compute\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Generating done",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"cmakeInputs\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake\",\"C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\"../../../.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeSystem.cmake\",\"../../../.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\"../../../.cxx/cmake/release/x86/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/release/x86/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/release/x86/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/cmake/release/x86/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/x86/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/x86/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/x86/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"C:/Users/KinG/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"D:/Computer/android/KinG/template/Template/app/src/main/cpp\",\"type\":\"reply\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"codemodel\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"configurations\":[{\"name\":\"Release\",\"projects\":[{\"buildDirectory\":\"D:/Computer/android/KinG/template/Template/app/.cxx/cmake/release/x86\",\"name\":\"Project\",\"sourceDirectory\":\"D:/Computer/android/KinG/template/Template/app/src/main/cpp\",\"targets\":[{\"artifacts\":[\"D:/Computer/android/KinG/template/Template/app/build/intermediates/cmake/release/obj/x86/libalgorithm-lib.so\"],\"buildDirectory\":\"D:/Computer/android/KinG/template/Template/app/.cxx/cmake/release/x86\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security   -O2 -DNDEBUG  -fPIC  \",\"defines\":[\"algorithm_lib_EXPORTS\"],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"algorithm-lib.cpp\"]}],\"fullName\":\"libalgorithm-lib.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"-llog -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"algorithm-lib\",\"sourceDirectory\":\"D:/Computer/android/KinG/template/Template/app/src/main/cpp\",\"sysroot\":\"C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\release\\x86\\build_output.txt",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file D:\\Computer\\android\\KinG\\template\\Template\\app\\.cxx\\cmake\\release\\x86\\build_command.txt",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "D:\\Computer\\android\\KinG\\template\\Template\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  }
+]

@@ -10,23 +10,18 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
     <style name="AppTab" parent="Widget.Design.TabLayout">
-        <item name="android:theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
-        <item name="android:minHeight">?attr/actionBarSize</item>
-        <item name="tabTextAppearance">@style/AppTab.TextAppearance</item>
-        <item name="tabIndicatorHeight">2dp</item>
-        <item name="tabSelectedTextColor">@color/white</item>
-        <item name="tabTextColor">@color/white</item>
-    </style>
+        <!--        <item name="android:theme">@style/ThemeOverlay.AppCompat.ActionBar</item>-->
+        <!--        <item name="android:maxHeight">?attr/actionBarSize</item>-->
 
-    <style name="AppTab.TextAppearance" parent="TextAppearance.Design.Tab">
-        <item name="textAllCaps">false</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textAllCaps">false</item>
-        <item name="android:textStyle">normal</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabIndicatorColor">@color/textColorLight</item>
+        <item name="tabTextColor">@color/textColorLight</item>
+        <item name="tabSelectedTextColor">@color/textColorDefault</item>
+        <item name="tabBackground">@color/colorAccent</item>
+        <item name="tabMaxWidth">0dp</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
     </style>
 
     <style name="full_screen_dialog">
@@ -55,16 +50,165 @@
         <item name="colorAccent">@color/colorPrimary</item>
     </style>
 
-    <style name="CardViewStyle" parent="android:Widget.TextView">
-        <item name="android:foreground">@drawable/selector_bg_card</item>
-        <item name="cardCornerRadius">@dimen/card_corner_radius_default</item>
-        <item name="cardElevation">@dimen/card_elevation</item>
-        <item name="cardPreventCornerOverlap">false</item>
-        <item name="cardUseCompatPadding">false</item>
-    </style>
+    <style name="dialogBgTransparent" parent="android:Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
 
+        <!--        <item name="android:windowMinWidthMajor">90%</item>-->
+        <!--        <item name="android:windowMinWidthMinor">90%</item>-->
+    </style>
 
     <style name="FullScreenImage" parent="Theme.Design.NoActionBar">
     </style>
+
+
+    <!-- Click events-->
+
+    <!--=============================================-->
+    <!--    <style name="clickTheme" parent="@android:style/Widget.Button">-->
+    <style name="clickTheme">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:background">@drawable/ripple_action</item>
+        <!--        <item name="android:background">?android:attr/selectableItemBackground</item>-->
+        <item name="android:foreground">?android:attr/actionBarItemBackground</item>
+        <!--        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>-->
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="clickThemeBL">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:background">@drawable/ripple_action</item>
+        <!--        <item name="android:background">?android:attr/selectableItemBackground</item>-->
+        <item name="android:foreground">?android:attr/actionBarItemBackground</item>
+        <!--        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>-->
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="clickThemeNormal">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <!--        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>-->
+        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--=============================================-->
+
+    <!--Text ............................................ -->
+
+    <!--For name or any main things-->
+    <style name="headingText" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textSize">@dimen/text_heading_size</item>
+        <item name="android:textColor">@color/textColorDefault</item>
+        <item name="android:textColorHint">@color/textColorDefault</item>
+    </style>
+
+    <!--For name or any main things-->
+    <style name="subHeadingText" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">@font/source_sans_pro_semi_bold</item>
+        <item name="android:textSize">@dimen/text_sub_heading_size</item>
+        <item name="android:textColor">@color/textColorDefault</item>
+        <item name="android:textColorHint">@color/textColorDefault</item>
+
+    </style>
+
+    <!--Use for general-->
+    <style name="bodyHeadingText" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textSize">@dimen/text_body_heading_size</item>
+        <item name="android:textColor">@color/textColorDefault</item>
+        <item name="android:textColorHint">@color/textColorDefault</item>
+    </style>
+
+    <!--Use for general-->
+    <style name="bodyText" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textSize">@dimen/text_body_size</item>
+        <item name="android:textColor">@color/textColorDefault</item>
+        <item name="android:textColorHint">@color/textColorDefault</item>
+    </style>
+
+    <!--Very thin font large in height, use for age any any number-->
+    <style name="lightText" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">@font/source_sans_pro_light</item>
+        <item name="android:textSize">@dimen/text_light_size</item>
+        <item name="android:textColor">@color/textColorDefault</item>
+        <item name="android:textColorHint">@color/textColorDefault</item>
+    </style>
+
+    <!--Very thin font large in height, use for age any any number-->
+    <style name="lightTextSmall" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">@font/source_sans_pro_light</item>
+        <item name="android:textSize">@dimen/text_light_sizeSmall</item>
+        <item name="android:textColor">@color/textColorDefault</item>
+        <item name="android:textColorHint">@color/textColorLight</item>
+        <item name="android:shadowColor">@color/textShadowDefaultLight</item>
+        <item name="android:shadowDx">-1</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <!--Very thin font large in height, use for age any any number-->
+    <style name="lightTextBig" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">@font/source_sans_pro_light</item>
+        <item name="android:textSize">@dimen/text_light_sizeBig</item>
+        <item name="android:textColor">@color/textColorDefault</item>
+        <item name="android:textColorHint">@color/textColorDefault</item>
+    </style>
+
+    <!--================================================-->
+    <!--Images Views-->
+
+    <style name="imageViewIcons" parent="clickTheme">
+        <!--        <item name="android:paddingStart">@dimen/ic_icon_padding</item>-->
+        <!--        <item name="android:paddingEnd">@dimen/ic_icon_padding</item>-->
+        <!--        <item name="android:paddingTop">@dimen/ic_icon_padding_small</item>-->
+        <!--        <item name="android:paddingBottom">@dimen/ic_icon_padding_small</item>-->
+        <item name="android:padding">@dimen/_5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:elevation">@dimen/_8dp</item>
+    </style>
+
+
+
+    <!--================================================-->
+    <!--margin-->
+
+    <style name="marginDefaultLR" parent="android:TextAppearance.Widget">
+        <item name="android:layout_marginLeft">@dimen/layoutLeftMarginDefault</item>
+        <item name="android:layout_marginStart">@dimen/layoutLeftMarginDefault</item>
+        <item name="android:layout_marginEnd">@dimen/layoutRightMarginDefault</item>
+        <item name="android:layout_marginRight">@dimen/layoutRightMarginDefault</item>
+    </style>
+
+    <style name="marginDefaultLRDouble" parent="android:TextAppearance.Widget">
+        <item name="android:layout_marginLeft">@dimen/layoutMarginDouble</item>
+        <item name="android:layout_marginStart">@dimen/layoutMarginDouble</item>
+        <item name="android:layout_marginEnd">@dimen/layoutMarginDouble</item>
+        <item name="android:layout_marginRight">@dimen/layoutMarginDouble</item>
+    </style>
+
+    <style name="marginDefaultLRB" parent="android:TextAppearance.Widget">
+        <item name="android:layout_marginLeft">@dimen/layoutLeftMarginDefault</item>
+        <item name="android:layout_marginStart">@dimen/layoutLeftMarginDefault</item>
+        <item name="android:layout_marginEnd">@dimen/layoutRightMarginDefault</item>
+        <item name="android:layout_marginRight">@dimen/layoutRightMarginDefault</item>
+        <item name="android:layout_marginBottom">@dimen/layoutRightMarginDefault</item>
+    </style>
+
+    <style name="marginLRDivide" parent="android:TextAppearance.Widget">
+        <item name="android:layout_marginLeft">@dimen/marginDivide</item>
+        <item name="android:layout_marginStart">@dimen/marginDivide</item>
+        <item name="android:layout_marginEnd">@dimen/marginDivide</item>
+        <item name="android:layout_marginRight">@dimen/marginDivide</item>
+    </style>
+
+
 
 </resources>

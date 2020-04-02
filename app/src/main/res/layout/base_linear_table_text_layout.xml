@@ -13,8 +13,7 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:includeFontPadding="false"
-        android:textSize="18sp"
+        style="@style/bodyText"
         tools:text="This is left side text"
         android:gravity="start"/>
 
@@ -23,8 +22,7 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:includeFontPadding="false"
-        android:textSize="18sp"
+        style="@style/bodyText"
         tools:text="This is right side text"
         android:gravity="end"
         android:layout_gravity="end"/>

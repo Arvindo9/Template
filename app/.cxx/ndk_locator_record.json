@@ -39,7 +39,7 @@
     },
     {
       "level": "INFO",
-      "message": "Found requested ndk.dir (C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\ndk-bundle) which has version 20.1.5948944"
+      "message": "Found requested ndk.dir (C:\\Users\\KinG\\AppData\\Local\\Android\\Sdk\\ndk-bundle) which has version 21.0.6113669"
     }
   ]
 }

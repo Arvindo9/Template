@@ -21,7 +21,7 @@ ANDROID_ABI:UNINITIALIZED=x86
 ANDROID_NDK:UNINITIALIZED=C:\Users\KinG\AppData\Local\Android\Sdk\ndk-bundle
 
 //No help, variable specified on the command line.
-ANDROID_PLATFORM:UNINITIALIZED=android-16
+ANDROID_PLATFORM:UNINITIALIZED=android-19
 
 //No help, variable specified on the command line.
 CMAKE_ANDROID_ARCH_ABI:UNINITIALIZED=x86
@@ -199,7 +199,7 @@ CMAKE_STRIP:FILEPATH=C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/toolchai
 CMAKE_SYSTEM_NAME:UNINITIALIZED=Android
 
 //No help, variable specified on the command line.
-CMAKE_SYSTEM_VERSION:UNINITIALIZED=16
+CMAKE_SYSTEM_VERSION:UNINITIALIZED=19
 
 //The CMake toolchain file
 CMAKE_TOOLCHAIN_FILE:FILEPATH=C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake
@@ -217,10 +217,10 @@ Project_BINARY_DIR:STATIC=D:/Computer/android/KinG/template/Template/app/.cxx/cm
 Project_SOURCE_DIR:STATIC=D:/Computer/android/KinG/template/Template/app/src/main/cpp
 
 //Dependencies for the target
-algorithm-lib_LIB_DEPENDS:STATIC=general;C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16/liblog.so;
+algorithm-lib_LIB_DEPENDS:STATIC=general;C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/19/liblog.so;
 
 //Path to a library.
-log-lib:FILEPATH=C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16/liblog.so
+log-lib:FILEPATH=C:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/19/liblog.so
 
 
 ########################

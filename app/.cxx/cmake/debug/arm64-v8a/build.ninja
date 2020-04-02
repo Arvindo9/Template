@@ -40,7 +40,7 @@ build cmake_object_order_depends_target_algorithm-lib: phony
 build CMakeFiles/algorithm-lib.dir/algorithm-lib.cpp.o: CXX_COMPILER__algorithm-lib D$:/Computer/android/KinG/template/Template/app/src/main/cpp/algorithm-lib.cpp || cmake_object_order_depends_target_algorithm-lib
   DEFINES = -Dalgorithm_lib_EXPORTS
   DEP_FILE = CMakeFiles\algorithm-lib.dir\algorithm-lib.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
   OBJECT_DIR = CMakeFiles\algorithm-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\algorithm-lib.dir
 
@@ -52,8 +52,8 @@ build CMakeFiles/algorithm-lib.dir/algorithm-lib.cpp.o: CXX_COMPILER__algorithm-
 # Link the shared library D:\Computer\android\KinG\template\Template\app\build\intermediates\cmake\debug\obj\arm64-v8a\libalgorithm-lib.so
 
 build D$:/Computer/android/KinG/template/Template/app/build/intermediates/cmake/debug/obj/arm64-v8a/libalgorithm-lib.so: CXX_SHARED_LIBRARY_LINKER__algorithm-lib CMakeFiles/algorithm-lib.dir/algorithm-lib.cpp.o | C$:/Users/KinG/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so
-  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -fno-experimental-isel
-  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info
+  LINK_FLAGS = -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = -llog -latomic -lm
   OBJECT_DIR = CMakeFiles\algorithm-lib.dir
   POST_BUILD = cd .

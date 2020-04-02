@@ -1,36 +1,42 @@
 <resources>
     <string name="app_name">Dating</string>
 
+    <string name="circle">Circle</string>
+    <string name="rectangle">Rectangle</string>
+
+    <string name="min_label">Min</string>
+    <string name="max_label">Max</string>
+
     <string name="str_ShowOnPermisstion">Please Allow permission for your app.
         If you deny permissions will not be able to use functionality of this app.</string>
 
-    <string name="skip">Skip</string>
+    <!--
+    This is the name that users will see when interacting with this channel.
+    It should describe the category of notifications that will be sent through this channel
+    -->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="fcm_message">FCM Message</string>
+
+
+
     <string name="next">Next</string>
     <string name="back">Back</string>
     <string name="logo">Logo</string>
     <string name="start">Start</string>
-    <string name="comma">,&#160;</string>
-    <string name="space">&#160;</string>
     <string name="network_error">Network error</string>
 
-    <string name="email_or_mobile_number">Email or mobile number</string>
-    <string name="password">Password</string>
-    <string name="login">Login</string>
-    <string name="don_t_have_account">Don\'t have account?</string>
-    <string name="create_here">Create here</string>
-    <string name="or">OR</string>
-    <string name="forget_password">Forget password?</string>
-    <string name="click_here">Click here</string>
-    <string name="first_name">First name</string>
-    <string name="last_name">Last name</string>
-    <string name="mobile">Mobile</string>
-    <string name="confirm_password">Confirm password</string>
-    <string name="registration">Registration</string>
-    <string name="_91">91</string>
     <string name="search_country">Search country</string>
-    <string name="invalidCountryCode">Invalid country code</string>
     <string name="errorMobile">Invalid mobile number</string>
-    <string name="loading">Loading</string>
     <string name="invalide_password">Invalide password</string>
     <string name="invalide_password_length">Password length too short</string>
     <string name="invalide_password_confirm">Password not match</string>
@@ -38,20 +44,15 @@
     <string name="invalide_last_name">Invalide last name</string>
     <string name="invalid_mobile_email">Invalid mobile number or email</string>
     <string name="invalid_email">Invalid email</string>
-    <string name="proceed">Proceed</string>
-    <string name="mobile_number">Mobile number</string>
     <string name="invalide_name">Name con\'t be empty</string>
     <string name="invalide_day">Invalid day</string>
     <string name="enter_day">Enter day</string>
     <string name="invalide_date">Invalide date</string>
-    <string name="otp_send_in_email">OTP send in email</string>
     <string name="otp_empty">OTP is empty</string>
     <string name="otp_length_short">OTP length too short</string>
     <string name="name_with_no_space">Name doesn\'t contain space</string>
-    <string name="pin_code">Pin code</string>
     <string name="pin_code_empty">Empty pin code</string>
     <string name="pin_code_too_short">Pin code too short</string>
     <string name="mobile_number_empty">Mobile number is empty</string>
-    <string name="rectangle">Rectangle</string>
 
 </resources>

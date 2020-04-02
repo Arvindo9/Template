@@ -1,20 +1,20 @@
 Executable : C:\Users\KinG\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
 arguments : 
 -HD:\Computer\android\KinG\template\Template\app\src\main\cpp
--BD:\Computer\android\KinG\template\Template\app\.cxx\cmake\debug\x86_64
--DANDROID_ABI=x86_64
--DANDROID_PLATFORM=android-16
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Computer\android\KinG\template\Template\app\build\intermediates\cmake\debug\obj\x86_64
 -DCMAKE_BUILD_TYPE=Debug
--DANDROID_NDK=C:\Users\KinG\AppData\Local\Android\Sdk\ndk-bundle
--DCMAKE_CXX_FLAGS=
--DCMAKE_SYSTEM_NAME=Android
--DCMAKE_ANDROID_ARCH_ABI=x86_64
--DCMAKE_SYSTEM_VERSION=16
--DCMAKE_EXPORT_COMPILE_COMMANDS=ON
--DCMAKE_ANDROID_NDK=C:\Users\KinG\AppData\Local\Android\Sdk\ndk-bundle
 -DCMAKE_TOOLCHAIN_FILE=C:\Users\KinG\AppData\Local\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
--G Ninja
+-DANDROID_ABI=x86_64
+-DANDROID_NDK=C:\Users\KinG\AppData\Local\Android\Sdk\ndk-bundle
+-DANDROID_PLATFORM=android-19
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DCMAKE_ANDROID_NDK=C:\Users\KinG\AppData\Local\Android\Sdk\ndk-bundle
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Computer\android\KinG\template\Template\app\build\intermediates\cmake\debug\obj\x86_64
 -DCMAKE_MAKE_PROGRAM=C:\Users\KinG\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=19
+-BD:\Computer\android\KinG\template\Template\app\.cxx\cmake\debug\x86_64
+-GNinja
 jvmArgs : 
 
+Build command args:
